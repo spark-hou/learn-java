@@ -15,6 +15,7 @@ public class Test01 {
                 System.out.println(num + "是质数");
             }
         }
+        sc.close();
 
     }
 
