@@ -3,6 +3,23 @@ package string;
 import java.util.Scanner;
 
 public class Test01 {
+    public static void doSum(int num) {
+        int sum = 0;
+        for (int i = 0; i < num; i++) {
+            sum += i;
+        }
+        System.out.println(sum);
+    }
+
+    // 有返回值的方法
+    public static int doSum2(int num) {
+        int sum = 0;
+        for (int i = 0; i < num; i++) {
+            sum += i;
+        }
+        return sum;
+    }
+
     public static void main(String[] args) {
         // sting是引用类型
         String str = "abg";
@@ -26,5 +43,7 @@ public class Test01 {
             System.out.println("不相等");
         }
         sc.close();
+
+        doSum(100);
     }
 }
