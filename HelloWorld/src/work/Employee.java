@@ -1,7 +1,7 @@
 package work;
 
 public class Employee {
-    String name;
+    private String _name;
     String gender;
     int age;
 }
